@@ -1,0 +1,29 @@
+@media screen and (max-width:576px){
+    
+    /* ..............Navbar Section................. */
+    .nav_container{
+       flex-direction: column;
+    }
+    .menus{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 20px;
+    }
+    .logo img{
+        
+        width: 76.041px;
+        height: 30px;
+    }
+    .logo_text{
+        text-align: center;
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 700;    
+    }
+    .nav_followus_container{
+
+        margin-top: 20px;
+    }
+}

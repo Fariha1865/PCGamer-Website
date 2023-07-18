@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) and (max-width:992px){
+
+    /* ..............Navbar Section................. */
+    .logo img{
+        
+        width: 56.041px;
+        height: 20px;
+    }
+    .logo_text{
+        text-align: center;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;    
+    }
+    .menus a, .nav_followus_container a{
+       
+        font-size: 0.8rem;
+    }
+}
