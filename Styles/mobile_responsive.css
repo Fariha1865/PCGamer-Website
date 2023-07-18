@@ -28,7 +28,10 @@
         margin-top: 20px;
     }
 
-
+      /* ..............Banner Section................. */
+    .banner{
+        background-image: none;
+    }
     .Banner_Container{
         max-width: 376px;
         flex-direction: column-reverse;
@@ -37,6 +40,15 @@
 
         width: 100%;
       
+    }
+    .banner_Left{
+        background-image: url('../images/banner_background.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .banner_right img{
+        height: 65%;
+        width: 65%;
     }
     .banner_header{
         font-size: 32px;
