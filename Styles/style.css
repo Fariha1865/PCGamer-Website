@@ -198,6 +198,8 @@
     max-width: 1200px;
     margin: 0 auto;
     border: 2px solid red;
+    display: flex;
+    align-items: center;
 }
 .gamer_left{
      width: 50%;
@@ -209,5 +211,41 @@
 }
 .gamer_right{
     width: 50%;
+    text-align: right;
     border: 2px solid red;
+}
+.gamer_header{
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;  
+    margin-bottom: 20px;  
+}
+.gamer_text_1{
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.btn_gamer{
+    padding: 0.6em 1em;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.gamer_text_2{
+    color: #534C64;
+    text-align: right;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;  
+    margin-bottom: 10px;  
+}
+.gamer_text_3{
+    color: #534C64;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+     
 }

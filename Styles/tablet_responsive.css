@@ -16,8 +16,33 @@
        
         font-size: 0.8rem;
     }
-
+    /* ..............Banner Section................. */
    .banner_right,.banner_Left{
     margin: 0 40px;
    }
+
+    /* ..............Gamers Section................. */
+    .banner_container{
+        margin: 0px 40px;
+    }
+    .banner_right img{
+        height: 25rem;
+        width: 18.8rem;
+    }
+    .gamer_container{
+       margin: 0px 40px
+    }
+    .gamer_right p,h1{
+        text-align: center;
+        font-size: 14px;
+    }
+    .gamer_right > button{
+        margin: 20px 80px;
+    }
+ 
+    .gamer_left img{
+        height: 20rem;
+        width: 22.8rem;
+    }
+
 }
