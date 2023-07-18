@@ -48,9 +48,11 @@
     .banner_Left{
         background-image: url('../images/banner_background.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
         justify-content:center;
         margin-top: 30px;
+        height: 20.6rem;
        
    
         
@@ -91,9 +93,14 @@
 
     /* ..............Gamer Section................. */
 
+  
+    .gamer{
+        background:white
+    }
     .gamer_container{
         max-width: 376px;
         flex-direction: column;
+        margin-top: 40px;
     }
     .gamer_right, .gamer_left{
         width: 100%;
