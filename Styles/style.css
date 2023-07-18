@@ -117,11 +117,10 @@
 }
 .banner_Left{
     width: 60%;
-    height: 28.5rem;
     display: flex;
     align-items: center;
-    justify-content: left;
-   
+    justify-content:left;
+   /* border: 2px solid red; */
    
     
 }
@@ -189,6 +188,7 @@
     margin-left: 20px;
 }
 
+         /* ..............Gamer Section................. */
 .gamer{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
@@ -197,13 +197,13 @@
 .gamer_container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
 }
 .gamer_left{
      width: 50%;
-     border: 2px solid red;
+     /* border: 2px solid red; */
 }
 .gamer_left img{
     width: 100%;
@@ -212,7 +212,7 @@
 .gamer_right{
     width: 50%;
     text-align: right;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .gamer_header{
 

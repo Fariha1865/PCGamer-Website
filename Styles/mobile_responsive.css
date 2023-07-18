@@ -23,7 +23,7 @@
         font-style: normal;
         font-weight: 700;    
     }
-    .nav_followus_container{
+    .nav_container{
 
         margin-top: 20px;
     }
@@ -32,25 +32,40 @@
     .banner{
         margin-top: 20px;
         background-image: none;
+        background-position: center;
     }
     .Banner_Container{
         max-width: 376px;
         flex-direction: column-reverse;
+
     }
     .banner_Left,.banner_right{
 
         width: 100%;
+        text-align: center;
       
     }
     .banner_Left{
         background-image: url('../images/banner_background.png');
         background-repeat: no-repeat;
         background-size: contain;
+        justify-content:center;
+        margin-top: 30px;
+       
+   
+        
+        
     }
+    /* .banner_left_sub{
+  
+       margin-left: 40px;
+    } */
+
     .banner_right img{
         height: 65%;
         width: 65%;
     }
+
     .banner_header{
         font-size: 32px;
     }
@@ -72,5 +87,29 @@
     }
     .btn_pink{
         margin-left: 30px;
+    }
+
+    /* ..............Gamer Section................. */
+
+    .gamer_container{
+        max-width: 376px;
+        flex-direction: column;
+    }
+    .gamer_right, .gamer_left{
+        width: 100%;
+    }
+    .gamer_header{
+        font-size: 30px;
+    }
+    .gamer_right p,h1{
+        text-align: center;
+        font-size: 13px;
+    }
+    .btn_gamer{
+        display: flex;
+        justify-content: center;
+    }
+    .gamer_text_3{
+        font-size: 18px;
     }
 }

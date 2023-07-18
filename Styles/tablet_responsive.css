@@ -29,20 +29,25 @@
         height: 25rem;
         width: 18.8rem;
     }
+
+     /* ..............Gamer Section................. */
     .gamer_container{
-       margin: 0px 40px
+       margin: 0px 40px;
+      
+       
     }
     .gamer_right p,h1{
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
     }
-    .gamer_right > button{
-        margin: 20px 80px;
+    .btn_gamer{
+        display: flex;
+        justify-content: center;
     }
  
     .gamer_left img{
         height: 20rem;
-        width: 22.8rem;
+        width: 22rem;
     }
 
 }
