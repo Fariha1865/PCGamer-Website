@@ -16,4 +16,8 @@
        
         font-size: 0.8rem;
     }
+
+   .banner_right,.banner_Left{
+    margin: 0 40px;
+   }
 }

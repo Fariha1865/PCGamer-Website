@@ -30,6 +30,7 @@
 
       /* ..............Banner Section................. */
     .banner{
+        margin-top: 20px;
         background-image: none;
     }
     .Banner_Container{
