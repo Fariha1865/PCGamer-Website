@@ -5,13 +5,30 @@
 }
 
 /* Shared Styles */
+
 .colored_text{
-    background: var(--linear, linear-gradient(90deg, #a00756 0%, #FF42A5 100%));
+    background: var(--linear, linear-gradient(180deg, #F948B2 0%, #8758F1 100%));
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent; 
 }
-/* Navbar */
+.btn_primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 0.6em 1.75em;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-top: 20px;
+    border: none;         
+}
+/* ..............Navbar Section................. */
 
 .navbar{
     background: #FFF;
@@ -21,7 +38,7 @@
 .nav_container{
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 2px solid red; */
+    /* border: 2px solid rgb(10, 10, 10); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +60,12 @@
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 700;    
+}
+.logo_text_color{
+    background: var(--linear, linear-gradient(90deg, #a00756 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
 }
 .menus{
     display: flex;
@@ -74,4 +97,86 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;    
+}
+
+/* ..............Banner Section................. */
+
+.Banner_Container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.banner_Left{
+    width: 50%;
+    /* border: 2px solid red;  */
+   
+    
+}
+.banner_right{
+    width: 50%;
+    /* border: 2px solid red;   */
+}
+.banner_right img{
+
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_header{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;   
+}
+.banner_text{
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+}
+.banner_Left ul{
+
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+}
+.middle-dot::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); 
+    
+  }
+.ul{
+    max-width: max-content;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 20px;
+}
+.ul li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.fa-solid{
+    color: #F948B2;
+    margin-right: 10px;
+}
+.btn_blue{
+    background: #4EC5F7;
+    margin-left: 20px;
+}
+.btn_pink{
+    margin-left: 20px;
 }
