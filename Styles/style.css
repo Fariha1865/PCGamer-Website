@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.nav_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid black;
+}
+.menus{
+    display: flex;
+    gap: 20px;
+}
+.menus a, .nav_followus_container a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.nav_followus_container a{
+    margin-right: 10px;
+}
+.fa-youtube{
+    color: red;
+    
+}
+.fa-tiktok{
+    color: #000000;
+    text-shadow: 2px 1px  #08FFF9,  1px 2px #F00044
+}
