@@ -116,4 +116,25 @@
     .gamer_text_3{
         font-size: 18px;
     }
+
+    .funny_videos_container{
+        grid-template-columns: 1fr;
+
+   
+    }
+   
+    .figcaption{
+        margin: 10px auto 20px;
+        text-align: center;
+        font-size: 11px;
+        
+        
+    }
+    .funny_games_header{
+        font-size: 23px;
+    }
+    .funny_games_text{
+        font-size: 11px;
+        
+    }
 }
