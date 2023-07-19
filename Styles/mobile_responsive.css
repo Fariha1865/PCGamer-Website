@@ -225,6 +225,9 @@
     text-align: center;
     font-size: 28px    
 }
+
+  /* ..............Careers Section................. */
+
 .Careers{
     padding: 0px 20px;
 }
@@ -248,5 +251,20 @@
 .btn_white{
     font-size: 12px;
 }
+
+  /* ..............Game Category Section................. */
+
+.catagory{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+}
+.game_types {
+
+    padding: 5px 5px;
+    margin: 20px 5px;
+    font-size: 10px;
+  }
+  
 
 }

@@ -475,3 +475,107 @@
     background: white;
     color: #FF42A5 ;
 }
+/* ................Game Category_Section................ */
+.catagory{
+
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
+
+.game_types {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 8px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 48px;
+    margin: 20px 10px;
+  }
+  
+  .game_types img {
+    margin-right: 10px;
+    width: 20%; 
+    height: 20%; 
+  } 
+
+/* ................Footer Section................ */
+
+  .footer{
+
+    margin-top: 50px;
+    background-color: #0B0223;
+    padding: 100px;
+ 
+  }
+
+  .footer_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid white; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .footer_text{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: white; 
+    text-align: center;  
+  }
+  .footer_menu{
+    display: flex;
+    gap: 20px;
+
+  }
+  .footer_menu a{
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;  
+    margin-top: 30px;
+    text-decoration: none;
+  }
+
+  .social{
+    font-size: 24px;
+    color: white;
+    margin: 20px 10px;  
+  }
+  .footer_Privacy{
+    display: flex;
+    gap: 20px;
+  }
+  .footer_Privacy a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;   
+  }
+  .Privacy_text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;  
+    margin-top: 20px;
+  }

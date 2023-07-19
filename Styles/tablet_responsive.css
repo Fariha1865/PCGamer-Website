@@ -89,12 +89,14 @@
   
   }
   .play_instantly_right img{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 70%;
+    margin-left: 50px;
   }
   .play_instant_sub img{
-    width: 350.5px;
-    height: 380px;
+    width: 250.5px;
+    height: 280px;
+    
 }
 .play_instant_sub{
     position: relative;
@@ -132,12 +134,13 @@
   
   }
   .play_online_right img{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 70%;
+    margin-left: 50px;
   }
   .play_online_sub img{
-    width: 350.5px;
-    height: 380px;
+    width: 250.5px;
+    height: 280px;
 }
 .play_online_sub{
     position: relative;
@@ -157,6 +160,8 @@
     text-align: center;
 
 }
+
+  /* ..............Careers Section................. */
 .Careers{
     padding: 0px 20px;
 }
