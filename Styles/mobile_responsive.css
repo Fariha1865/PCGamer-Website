@@ -266,5 +266,42 @@
     font-size: 10px;
   }
   
+  .footer_menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer_menu a{
+    font-size: 13px;
+    margin-top: 5px;
+   
+  }
+  .footer_socials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .social{
+    margin-top: 5px;
+  }
 
+  .footer_Privacy{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .footer_Privacy a{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .Privacy_text{
+    font-size: 10px;
+  }
 }

@@ -177,4 +177,19 @@
 .ul_career{
     gap: 15rem;
 }
+
+.footer_menu a{
+    font-size: 12px;
+ 
+  }
+
+  .footer_Privacy{
+    gap: 12px;
+  }
+  .footer_Privacy a{
+    font-size: 11px;
+  }
+  .Privacy_text{
+    font-size: 10px;
+  }
 }
