@@ -116,7 +116,7 @@
     .gamer_text_3{
         font-size: 18px;
     }
-
+    /* ..............Funny Videos Section................. */
     .funny_videos_container{
         grid-template-columns: 1fr;
 
@@ -137,4 +137,43 @@
         font-size: 11px;
         
     }
+
+  /* ..............Play Instantly Section................. */
+
+  .play_instantly_container{
+    flex-direction: column;
+    margin-right: 50px;
+
+
+  }
+  .play_instantly_right,.play_instantly_left{
+    width: 100%;
+    margin: 0px;
+   
+  }
+  .play_instantly_right img{
+    height: 100%;
+    width: 100%;
+  }
+  .play_instant_sub img{
+    width: 180.5px;
+    height: 180px;
+}
+.play_instant_sub{
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+    border-radius: 8px;  
+}
+.play_instantly_left p{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.play_instantly_left h1{
+    width: 100%;
+    text-align: center;
+    font-size: 28px    
+}
 }
