@@ -471,4 +471,7 @@
     text-align: right;
 }
 
-
+.btn_white{
+    background: white;
+    color: #FF42A5 ;
+}
