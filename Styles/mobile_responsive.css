@@ -140,6 +140,9 @@
 
   /* ..............Play Instantly Section................. */
 
+  .play_instantly{
+    max-height: max-content;
+  }
   .play_instantly_container{
     flex-direction: column;
     margin-right: 50px;
@@ -176,4 +179,51 @@
     text-align: center;
     font-size: 28px    
 }
+
+  /* ..............Play Online Games Section................. */
+
+  .play_online{
+    max-height: max-content;
+    padding: 0px 0px 0px 50px;
+  }
+  .play_online_container{
+    flex-direction: column;
+    margin-right: 50px;
+  /* border: 2px solid red; */
+
+
+  }
+  .play_online_right,.play_online_left{
+    width: 100%;
+    margin: 0px;
+   
+  }
+  .play_online_right img{
+    height: 100%;
+    width: 100%;
+  }
+  .play_online_sub img{
+    width: 180.5px;
+    height: 180px;
+}
+.play_online_sub{
+    position: relative;
+    bottom: 100px;
+    left: 170px;
+    width: max-content;
+    /* border: 2px solid red; */
+    border-radius: 8px;  
+}
+.play_online_left p{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.play_online_left h1{
+    width: 100%;
+    text-align: center;
+    font-size: 28px    
+}
+  
 }
