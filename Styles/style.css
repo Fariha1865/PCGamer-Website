@@ -647,3 +647,22 @@
     margin-top: 20px;
     text-decoration: none;
   }
+
+  .t{
+    color: #08FFF9;
+  }
+  .f{
+    color: blue;
+  }
+  .y{
+    color: red;
+  }
+  .i{
+    color: rgb(145, 25, 145);
+  }
+  .l{
+    color: rgb(146, 146, 235);
+  }
+  .a{
+    color: silver;
+  }
