@@ -416,14 +416,14 @@
     
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
 }
 
 .career_left{
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 .career_left h1{
@@ -447,14 +447,14 @@
 .career_right img{
     width: 100%;
     height: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .ul_career{
     width: 100%;
     display: flex;
     gap: 7.7em;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .ul_career ul li{
     list-style: none;
