@@ -273,15 +273,50 @@
 }
 .card img{
     width: 15rem;
-    height: 318.8rem0px;
+    height: 18.8rem;
     border-radius: 16px;
     
   
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat;     */
 }
+.card_image_holder{
+    position: relative;
+  display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 98%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    border-radius: 16px;
+    border: 5px solid rgb(243, 95, 144);
+}
+.card_image_holder:hover .overlay {
+    opacity: 1;
+    
+  }
+.watch_text{
+    margin-top: 20px;
+    font-weight: 600;
+}
+  
+.funny_play{
+    font-size: 50px;
+}
 .figcaption{
     max-width:15rem ;
     text-align: left;
+    margin-top: 10px;
     
 }
 .funny_videos_container{
@@ -500,6 +535,7 @@
     cursor: pointer;
     border-radius: 48px;
     margin: 20px 10px;
+    border: none;
   }
   
   .game_types img {
