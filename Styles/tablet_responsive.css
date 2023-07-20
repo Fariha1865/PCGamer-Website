@@ -32,9 +32,13 @@
   
 
      /* ..............Gamer Section................. */
+
+     .gamer{
+        background:white
+     }
     .gamer_container{
        margin: 30px 40px;
-      
+       padding-top: 40px;
        
     }
     .gamer_right p,h1{
@@ -73,9 +77,8 @@
   /* ..............Play Instantly Section................. */
 
   .play_instantly{
-    margin-bottom: 200px;
     padding-left: 100px;
-  
+
   }
   .play_instantly_container{
     flex-direction: column;
@@ -120,7 +123,8 @@
    /* ..............Play Online Games Section................. */
 
    .play_online{
-    margin-bottom: 200px;
+  
+    
   }
   .play_online_container{
     flex-direction: column;
@@ -163,7 +167,7 @@
 
   /* ..............Careers Section................. */
 .Careers{
-    padding: 0px 20px;
+    padding: 40px 20px;
 }
 .career_container{
     flex-direction: column;

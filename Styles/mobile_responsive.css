@@ -97,7 +97,7 @@
     .gamer_container{
         max-width: 376px;
         flex-direction: column;
-        margin-top: 40px;
+        padding-top: 40px;
     }
     .gamer_right, .gamer_left{
         width: 100%;
