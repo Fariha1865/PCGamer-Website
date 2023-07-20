@@ -28,6 +28,7 @@
     margin-top: 20px;
     border: none;         
 }
+
 /* ..............Navbar Section................. */
 
 .navbar{
@@ -185,8 +186,17 @@
     margin-left: 20px;
 }
 .btn_pink{
+    background: #F948B2;
     margin-left: 20px;
 }
+.btn_pink:hover {
+
+    background-color: rgb(112, 10, 99);
+  }
+  .btn_blue:hover {
+
+    background-color: rgb(47, 7, 122);
+  }
 
          /* ..............Gamer Section................. */
 .gamer{
@@ -234,6 +244,7 @@
     padding: 0.6em 1em;
     font-size: 13px;
     margin-bottom: 10px;
+   
 }
 .gamer_text_2{
     color: #534C64;
@@ -250,6 +261,13 @@
     font-weight: 700;
      
 }
+.more{
+    background: #F948B2;
+}
+.more:hover{
+    background-color: #700846;
+}
+
  /* ..............Funny Videos Section................. */
 .funny_videos{
     max-width: 1200px;
@@ -277,9 +295,11 @@
     height: 18.8rem;
     border-radius: 16px;
     
-  
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat;     */
+
 }
+
+/* ...........Show overlay when hovered on image................ */
+
 .card_image_holder{
     position: relative;
   display: inline-block;
@@ -310,7 +330,7 @@
     margin-top: 20px;
     font-weight: 600;
 }
-  
+/* ...........................................  */
 .funny_play{
     font-size: 50px;
 }
@@ -510,7 +530,12 @@
 .btn_white{
     background: white;
     color: #FF42A5 ;
+    color: black;
 }
+.btn_white:hover {
+
+    background-color: rgb(158, 138, 138);
+  }
 /* ................Game Category_Section................ */
 .catagory{
 
@@ -536,7 +561,7 @@
     cursor: pointer;
     border-radius: 48px;
     margin: 20px 10px;
-    border: none;
+    border: 2px solid #f0f0f0;
   }
   
   .game_types img {
@@ -544,7 +569,10 @@
     width: 20%; 
     height: 20%; 
   } 
-
+  .game_types:hover {
+    border: 2px solid rgb(243, 95, 144);
+    background-color: darkgray;
+  }
 /* ................Footer Section................ */
 
   .footer{
